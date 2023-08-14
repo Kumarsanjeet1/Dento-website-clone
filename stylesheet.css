@@ -23,7 +23,6 @@ body{
     display: flex;
 }
 
-
 #dento-nav ul li,a{
     padding-right:  1em;
     color: black;
@@ -33,14 +32,10 @@ body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
 }
 
-
 #dento-nav ul li:hover{
     color: #00AEEF;
     transition: .4s;
 }
-
-
-
 
 .btn button{
     width: 150px;
@@ -54,7 +49,6 @@ body{
     cursor: pointer;
 }
 
-
 #dento-nav button:hover{
     background-color: #fff;
     border: 2px #00AEEF solid;
@@ -67,9 +61,6 @@ body{
     height: 40px;
     font-size: 0.8em;
 }
-
-
-
 
 /* Welcome page */
 
@@ -146,7 +137,6 @@ body{
     text-transform: capitalize;
 }
 
-
 #btn-contact-us{
     width: 200px;
     height: 45px;
@@ -181,7 +171,7 @@ body{
     
 }
 
-/*---------------- Right section content------------- */
+/*---------------- About Right section content------------- */
 .right-section-abt {
     display: flex;
     flex-direction: column;
@@ -256,7 +246,7 @@ hr#abt-line {
     text-align: center;
     justify-content: space-around;
     width: 100%;
-    height: 350px;
+    height: 300px;
     font-size: 3em;
     color: #00ADEE;
     
@@ -283,9 +273,23 @@ hr#abt-line {
 
 /* -----------Container 4--------------- */
 .container-4{
+        background-image: url(https://preview.colorlib.com/theme/dento/img/bg-img/13.jpg.webp);
+        height: 500px;
+        background-size: cover;
+        background-repeat: no=repeat;
+        background-attachment: fixed;
+}
+
+.sevice-container{
     display: flex;
     flex-direction: row;
     justify-content:center;
+    height: 500px;
+    background-color:  #031b47b4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    
 }
 
 i.fa-solid.fa-play {
@@ -307,5 +311,19 @@ i.fa-solid.fa-play {
 .play-btn{
     position: absolute;
     top: 50px;
+}
+
+.row-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 167px;
+    column-gap: 19%;
+    row-gap: 100%;
+}
+
+.our-service-content-block img{
+    color: #000;
 }
 
