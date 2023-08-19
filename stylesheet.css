@@ -274,7 +274,7 @@ hr#abt-line {
 /* -----------Container 4--------------- */
 .container-4{
         background-image: url(https://preview.colorlib.com/theme/dento/img/bg-img/13.jpg.webp);
-        height: 500px;
+        height: 600px;
         background-size: cover;
         background-repeat: no=repeat;
         background-attachment: fixed;
@@ -284,11 +284,41 @@ hr#abt-line {
     display: flex;
     flex-direction: row;
     justify-content:center;
-    height: 500px;
+    height: 600px;
+    width: 100%;
     background-color:  #031b47b4;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+    position: relative;   
+}
+
+.our-service-left-section{
+    position: absolute;
+    left: 191px;
+    top: 144px;
+    
+}
+
+.our-service-heading h3 {
+    font-size: 32px;
+    font-weight: 550;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+
+.our-service-heading hr{
+    width: 10%;
+    border: none;
+    background-color: #00ADEE;
+    height: 4px;
+}
+
+.our-service-right-section {
+    position: absolute;
+    top: 100px;
+    left: 665px;
     
 }
 
@@ -296,21 +326,21 @@ i.fa-solid.fa-play {
     font-size: 2em;
     color: #FFF;
 }
+
 #playbtn {
     background-color: #00ADEE;
     height: 80px;
     width: 80px;
     border: none;
     border-radius: 50%;
+    cursor: pointer;
 }
 
-.our-service-right-section{
-    position: relative;
-}
 
-.play-btn{
+.play-btn {
     position: absolute;
-    top: 50px;
+    top: 150px;
+    left: 264px;
 }
 
 .row-links {
@@ -327,3 +357,7 @@ i.fa-solid.fa-play {
     color: #000;
 }
 
+.our-service-content-block h6:hover{
+    color: #00AEEF;
+    transition: .4s;   
+}
