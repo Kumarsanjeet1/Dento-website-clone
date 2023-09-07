@@ -16,6 +16,7 @@ body{
     align-items: center;
     padding: .5em 5em;
     flex-direction: row;
+    
 }
 
 #dento-nav ul {
@@ -93,7 +94,7 @@ body{
     padding-top: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
-    top: 120px;
+    top: 100px;
 }
 
 .welcome-page-desc{
@@ -101,7 +102,7 @@ body{
     text-align: center;
     padding: 0 5em;
     position: absolute;
-    top: 420px;
+    top: 400px;
 }
 
 #btn-get-started{
@@ -300,6 +301,11 @@ hr#abt-line {
     
 }
 
+.our-service-heading {
+    position: absolute;
+    top: -85px;
+}
+
 .our-service-heading h3 {
     font-size: 32px;
     font-weight: 550;
@@ -309,7 +315,7 @@ hr#abt-line {
 
 
 .our-service-heading hr{
-    width: 10%;
+    width: 30%;
     border: none;
     background-color: #00ADEE;
     height: 4px;
@@ -361,3 +367,6 @@ i.fa-solid.fa-play {
     color: #00AEEF;
     transition: .4s;   
 }
+
+
+ 
