@@ -307,9 +307,9 @@ hr#abt-line {
 }
 
 .our-service-heading h3 {
-    font-size: 32px;
-    font-weight: 550;
-    font-family: cursive;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: math;
     text-transform: capitalize;
 }
 
@@ -368,5 +368,86 @@ i.fa-solid.fa-play {
     transition: .4s;   
 }
 
+/* Container-5 ======pricing section======= */
+.container-5{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
- 
+.Pricing-section h3 {
+    color: rgb(99, 96, 96);
+    text-align: center;
+    font-size: 41px;
+    font-weight: 400;
+    font-family: system-ui;
+    margin-top: 100px;
+    margin-bottom:20px ;
+    line-height: 1.4;
+}
+
+.Pricing-section hr{
+    margin: auto;
+    width: 5%;
+    border: none;
+    background-color: #00ADEE;
+    height: 4px;
+}
+
+.table-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;    
+}
+
+.table-data th {
+    color: #FFF;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #00ADEE;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: math;
+    border: none;
+}
+
+.table-data tr td{
+    padding: 15px 15px 15px 25px;
+    border: none;
+    background-color: #f4f1f1;
+    font-family: math;
+    color: rgb(99, 96, 96);
+
+}
+
+#read-more {
+    background-color: #00ADEE;
+    border: none;
+    font-size: 1em;
+    padding: 14px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    width: 179px;
+    font-family: math;
+    
+}
+#read-more:hover{
+    background-color: #fff;
+    border: 2px #00AEEF solid;
+    color: #00AEEF;
+    transition: .7s;
+    
+    font-family: sans-serif;
+    cursor: pointer;
+    
+    font-size: 1em;
+}
